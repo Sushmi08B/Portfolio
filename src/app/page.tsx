@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
     images: [{
-      url: '/headshot/preview.jpg'
+      url: '/headshot/preview.jpg',
       width: 1200,
       height: 630,
       alt: 'Sushmitha Birudala - Portfolio Hero Section'
