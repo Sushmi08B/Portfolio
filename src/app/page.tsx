@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
     images: [{
-      url: 'https://sushmithabirudala.vercel.app/headshot/sushmitha.jpg'
+      url: '/headshot/preview.jpg'
       width: 1200,
       height: 630,
       alt: 'Sushmitha Birudala - Portfolio Hero Section'
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
-    images: ['https://sushmithabirudala.vercel.app/headshot/sushmitha.jpg']
+    images: ['/headshot/preview.jpg']
   }
 };
 
