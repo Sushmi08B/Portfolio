@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://bjornmelin.io";
+const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://sushmithabirudala.vercel.app/";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ["/", "/about", "/projects", "/contact"].map(
