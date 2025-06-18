@@ -102,9 +102,7 @@ portfolio/
 
 ## 🧠 Author
 
-**Chandu Prasad** – Senior BI & Data Analyst  
-🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN)  
-📧 yourname@email.com  
+**Sushmitha Birudala** – BI & Data Analyst   
 📂 [Resume](./public/resume.pdf)
 
 ---
@@ -117,7 +115,7 @@ Licensed under the [MIT License](LICENSE)
 
 ## ✨ Contributions
 
-This project is adapted from the excellent [`Sushmitha-Portfolio`](https://github.com/bjornmelin/Sushmitha-Portfolio) and customized for BI professionals.
+This project is adapted from the excellent (https://github.com/bjornmelin) and customized for BI professionals.
 
 ---
 
