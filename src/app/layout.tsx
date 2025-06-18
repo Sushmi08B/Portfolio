@@ -37,8 +37,8 @@ export const metadata: Metadata = {
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
     images: [{
       url: '/headshot/sushmitha.jpg',
-      width: 1200,
-      height: 630,
+      width: 400,
+      height: 400,
       alt: 'Sushmitha Birudala - Portfolio Hero Section'
     }]
   },
