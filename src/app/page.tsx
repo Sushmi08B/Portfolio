@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.",
   openGraph: {
     type: 'website',
-    title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
+    title: 'Sushmitha Birudala - Business Intelligence Business Intelligence Business Intelligence and Data Analyst',
     description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
     images: [{
       url: 'https://sushmithabirudala.vercel.app/headshot/sushmitha.jpg',
