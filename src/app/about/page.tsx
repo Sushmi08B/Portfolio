@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { AboutDetail } from "@/components/sections/about-detail";
 
 export const metadata: Metadata = {
-  title: "About - Sushmitha Birudala | Senior Data Scientist & Cloud Architect",
+  title: "About - Sushmitha Birudala | Business Intelligence and Data Analyst",
   description:
-    "Learn more about Sushmitha Birudala, a Senior Data Scientist and Cloud Solutions Architect with 6 AWS certifications, specializing in AI/ML solutions and cloud architecture.",
+    "Learn more about Sushmitha Birudala, a Business Intelligence and Data Analyst.",
 };
 
 export default function AboutPage() {
