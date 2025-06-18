@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
     images: [{
-      url: '/headshot/preview.jpg',
+      url: '/headshot/preview.png',
       width: 400,
       height: 400,
       alt: 'Sushmitha Birudala - Portfolio Hero Section'
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
-    images: ['/headshot/preview.jpg']
+    images: ['/headshot/preview.png']
   },
   keywords: [
     "Business Intelligence",
