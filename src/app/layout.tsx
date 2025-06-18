@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     }]
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
     images: ['/headshot/sushmitha.jpg']
