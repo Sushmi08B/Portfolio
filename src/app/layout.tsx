@@ -8,6 +8,8 @@ import StructuredData from "@/components/structured-data";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import { Analytics } from '@vercel/analytics/react';
+
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -111,6 +113,7 @@ export default function RootLayout({
           </div>
         </Providers>
         <StructuredData type="both" />
+        <Analytics />
       </body>
     </html>
   );
