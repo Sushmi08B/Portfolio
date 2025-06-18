@@ -8,7 +8,6 @@ A modern, professional portfolio template tailored for Business Intelligence and
 [![SQL](https://img.shields.io/badge/SQL-Data-blue)](https://en.wikipedia.org/wiki/SQL)
 [![Python](https://img.shields.io/badge/Python-Scripting-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-Next.js-blue?logo=react)](https://nextjs.org/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chandu%20Prasad-0077B5?logo=linkedin)](https://www.linkedin.com/in/YOUR-LINKEDIN)
 
 ---
 
