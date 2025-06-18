@@ -13,8 +13,8 @@ export function generateMetadata({
   path = '',
   image,
 }: GenerateMetadataProps): Metadata {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://chandudata.com'; // Update if using a custom domain
-  const fullTitle = title ? `${title} | Chandu Prasad` : 'Chandu Prasad - Senior BI & Data Analyst';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sushmithabirudala.vercel.app/'; // Update if using a custom domain
+  const fullTitle = title ? `${title} | Sushmitha Birudala` : 'Sushmitha Birudala - Senior BI & Data Analyst';
 
   return {
     title: fullTitle,
@@ -29,14 +29,14 @@ export function generateMetadata({
       title: fullTitle,
       description:
         description ||
-        'Explore the portfolio of Chandu Prasad — Senior BI Analyst skilled in Power BI, SQL, Python, and advanced data visualization techniques.',
+        'Explore the portfolio of Sushmitha Birudala — Senior BI Analyst skilled in Power BI, SQL, Python, and advanced data visualization techniques.',
       url: `${baseUrl}${path}`,
-      siteName: 'Chandu Prasad',
+      siteName: 'Sushmitha Birudala',
       type: 'website',
       ...(image && { images: [{ url: image }] }),
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title: fullTitle,
       description:
         description ||
