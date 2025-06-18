@@ -4,13 +4,13 @@ import { FeaturedProjects } from "@/components/sections/featured-projects";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sushmitha Birudala - Senior Data Scientist & Cloud Solutions Architect",
+  title: "Sushmitha Birudala - Business Intelligence and Data Analyst",
   description:
-    "Portfolio of Sushmitha Birudala, a Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML solutions, GenAI innovation, and cloud-native architectures. 6x AWS Certified professional with expertise in machine learning and scalable cloud solutions.",
+    "Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.",
   openGraph: {
     type: 'website',
-    title: 'Sushmitha Birudala - Senior Data Scientist & Cloud Solutions Architect',
-    description: 'Portfolio of Sushmitha Birudala, a Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML solutions, GenAI innovation, and cloud-native architectures.',
+    title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
+    description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
     images: [{
       url: '/screenshots/hero-preview.png',
       width: 1200,
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sushmitha Birudala - Senior Data Scientist & Cloud Solutions Architect',
-    description: 'Portfolio of Sushmitha Birudala, a Senior Data Scientist and Cloud Solutions Architect specializing in AI/ML solutions, GenAI innovation, and cloud-native architectures.',
+    title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
+    description: 'Portfolio of Sushmitha Birudala, a Business Intelligence and Data Analyst.',
     images: ['/screenshots/hero-preview.png']
   }
 };

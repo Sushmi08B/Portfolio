@@ -6,7 +6,7 @@ export const env = createEnv({
         AWS_REGION: z.string().min(1).default("us-east-1"),
         AWS_ACCESS_KEY_ID: z.string().min(1),
         AWS_SECRET_ACCESS_KEY: z.string().min(1),
-        CONTACT_EMAIL: z.string().email().default("bjornmelin16@gmail.com"),
+        CONTACT_EMAIL: z.string().email().default("sushmithareddybirudala@gmail.com"),
     },
     client: {
         NEXT_PUBLIC_APP_URL: z.string().min(1),

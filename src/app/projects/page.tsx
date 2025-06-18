@@ -5,7 +5,7 @@ import { projectsData } from "@/data/projects";
 export const metadata: Metadata = {
   title: "Projects - Sushmitha Birudala",
   description:
-    "Explore my portfolio of projects in machine learning and AI, cloud architecture, and web development.",
+    "Explore my portfolio of projects in Business Intelligence and Data Analytics.",
 };
 
 export default function ProjectsPage() {
