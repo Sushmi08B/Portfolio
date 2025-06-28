@@ -98,12 +98,7 @@ portfolio/
 - 📂 **SQL Reporting Automation**  
   Automated reporting pipeline using SQL + Jupyter to reduce manual ops by 90%.
 
----
 
-## 🧠 Author
-**Sushmitha Birudala** – BI & Data Analyst   
->>>>>>> 8fd7505e1e302d52fa5b620330b8e14e3f356749
----
 
 ## 📜 License
 
