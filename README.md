@@ -1,5 +1,5 @@
 
-# 📊 Sushmitha's Portfolio – BI & Data Analyst
+# 📊 Sushmitha's Portfolio – Data & BI Analyst
 
 A modern, professional portfolio template tailored for Business Intelligence and Data Analysts. Built with Next.js 14, Tailwind CSS, and TypeScript — deployed with Vercel. Highlighting Power BI projects, SQL automation, and data storytelling.
 
@@ -85,28 +85,12 @@ portfolio/
 ├── README.md               # Project documentation
 
 ```
-
----
-
-## 📁 Example Projects
-
-- 📊 **Sales Dashboard**  
-  Power BI dashboard visualizing sales KPIs across regions and time periods.
-
-- 📈 **Customer Churn Prediction**  
-  Python-based ML model predicting telecom churn with 87% accuracy.
-
-- 📂 **SQL Reporting Automation**  
-  Automated reporting pipeline using SQL + Jupyter to reduce manual ops by 90%.
-
 ---
 
 ## 🧠 Author
 
-**Chandu Prasad** – Senior BI & Data Analyst  
-🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN)  
-📧 yourname@email.com  
-📂 [Resume](./public/resume.pdf)
+Sushmitha Birudala – Data & BI Analyst  
+🔗 [LinkedIn](https://www.linkedin.com/in/sushbirudala362/)  
 
 ---
 
