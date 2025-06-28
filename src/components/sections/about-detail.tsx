@@ -56,11 +56,9 @@ export function AboutDetail() {
               Professional Summary
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-              <p>I’m a  Data & Business Intelligence Analyst with over 4+ years of experience helping companies unlock actionable insights through dashboards, SQL data models, and Python-based automation.</p>
-              <p>Experience transforming raw data into actionable insights that support strategic decision-making.</p>
-              <p>Strong foundation in data cleaning, exploratory data analysis (EDA), KPI development, and dashboard creation, optimizing reporting pipelines to designing executive dashboards across sales, operations, and finance departments.</p>
-              <p>I hold a Master's in Computer Science and am passionate about data storytelling, stakeholder engagement, and driving real-world impact with clean, automated insights.</p>
-
+              <p>I’m a Business Intelligence Analyst with 3+ years of experience helping companies unlock actionable insights through Power BI dashboards, SQL data models, and Python-based automation.</p>
+              <p>From optimizing reporting pipelines to designing executive dashboards, I translate complex data into strategic decision-making tools across sales, operations, and finance departments.</p>
+              <p>I hold a Master's in Business Analytics and am passionate about data storytelling, stakeholder engagement, and driving real-world impact with clean, automated insights.</p>
             </div>
           </Card>
         </motion.div>
