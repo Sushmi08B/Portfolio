@@ -6,7 +6,9 @@ export function generatePersonSchema() {
     url: "https://sushmithabirudala.vercel.app/",
     jobTitle: "Business Intelligence and Data Analyst",
     description:
-      "Business Intelligence and Data Analyst",
+      "Proficient in Python, SQL, and Apache Spark, with expertise in data structures, algorithms, cloud technologies, \
+      and machine learning. Dedicated to building scalable applications, optimizingdata pipelines, and delivering impactful \
+      insights. Eager to contribute, learn, and prove my skills in dynamic environments while solving real-world challenges.",
     sameAs: [],
     knowsAbout: [
       "Business Intelligence",

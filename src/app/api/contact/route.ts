@@ -3,7 +3,8 @@ import { EmailService } from "@/lib/services/email";
 import { handleAPIError, APIError } from "@/lib/utils/error-handler";
 import { NextResponse } from "next/server";
 
-export async function POST(request: Request) {
+/*
+  export async function POST(request: Request) {
   try {
     const body = await request.json();
     const validatedData = contactFormSchema.parse(body);
@@ -23,3 +24,4 @@ export async function POST(request: Request) {
     return handleAPIError(error);
   }
 }
+*/

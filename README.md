@@ -8,7 +8,6 @@ A modern, professional portfolio template tailored for Business Intelligence and
 [![SQL](https://img.shields.io/badge/SQL-Data-blue)](https://en.wikipedia.org/wiki/SQL)
 [![Python](https://img.shields.io/badge/Python-Scripting-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-Next.js-blue?logo=react)](https://nextjs.org/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chandu%20Prasad-0077B5?logo=linkedin)](https://www.linkedin.com/in/YOUR-LINKEDIN)
 
 ---
 
@@ -88,10 +87,8 @@ portfolio/
 ---
 
 ## 🧠 Author
-
-Sushmitha Birudala – Data & BI Analyst  
-🔗 [LinkedIn](https://www.linkedin.com/in/sushbirudala362/)  
-
+**Sushmitha Birudala** – BI & Data Analyst   
+📂 [Resume](./public/resume.pdf)
 ---
 
 ## 📜 License
@@ -102,7 +99,7 @@ Licensed under the [MIT License](LICENSE)
 
 ## ✨ Contributions
 
-This project is adapted from the excellent [`Sushmitha-Portfolio`](https://github.com/bjornmelin/Sushmitha-Portfolio) and customized for BI professionals.
+This project is adapted from the excellent (https://github.com/bjornmelin) and customized for BI professionals.
 
 ---
 
