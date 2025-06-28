@@ -85,6 +85,7 @@ portfolio/
 
 ```
 
+
 ---
 
 ## 📁 Example Projects
@@ -104,6 +105,19 @@ portfolio/
 **Sushmitha Birudala** – BI & Data Analyst   
 
 ---
+
+## 📁 Example Projects
+
+- 📊 **Sales Dashboard**  
+  Power BI dashboard visualizing sales KPIs across regions and time periods.
+
+- 📈 **Customer Churn Prediction**  
+  Python-based ML model predicting telecom churn with 87% accuracy.
+
+- 📂 **SQL Reporting Automation**  
+  Automated reporting pipeline using SQL + Jupyter to reduce manual ops by 90%.
+
+
 
 ## 📜 License
 
