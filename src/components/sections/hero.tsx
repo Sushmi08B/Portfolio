@@ -37,7 +37,7 @@ export function Hero() {
               Hi, I'm Sushmitha Birudala
             </h1>
             <p className="mt-6 text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl">
-               Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions.
+               Data and Business Intelligence Analyst | Helping companies turn raw data into strategic insights and decisions.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
