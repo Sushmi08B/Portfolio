@@ -24,10 +24,11 @@ export function About() {
             About Me
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            I don’t just analyze data — I interrogate it until it confesses
+            Building Better Decisions with{" "}
+            <span className="text-primary">Business Intelligence</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Skilled Data and Business Analyst passionate about transforming data into actionable insights through dashboards, automation, and storytelling.
+            Senior BI Analyst skilled in Power BI, SQL, and Python — passionate about transforming data into actionable insights through dashboards, automation, and storytelling.
           </p>
         </div>
 
@@ -42,8 +43,7 @@ export function About() {
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-                I make data behave.
-              With 4 years of experience as a Data & BI Analyst, I’ve wrestled with messy spreadsheets, tamed SQL queries, and turned chaotic datasets into sleek dashboards that actually make sense. Armed with data wizardry skills, I decode patterns, design KPIs, and deliver insights that make business teams say, “Whoa, we didn’t know that.” Whether it’s churn, campaigns, or customer chaos — I ask the right questions, let the data speak, and tell the story behind the numbers. Because numbers are cool 
+              I’m a Business Intelligence Analyst with 6+ years of experience helping organizations make smarter decisions using data. From designing Power BI dashboards for executives to automating SQL-driven reports, I specialize in turning complex datasets into simple, meaningful stories.
             </p>
           </Card>
 

@@ -1,5 +1,5 @@
 
-# 📊 Sushmitha's Portfolio – Data & BI Analyst
+# 📊 Sushmitha's Portfolio – BI & Data Analyst
 
 A modern, professional portfolio template tailored for Business Intelligence and Data Analysts. Built with Next.js 14, Tailwind CSS, and TypeScript — deployed with Vercel. Highlighting Power BI projects, SQL automation, and data storytelling.
 
@@ -8,7 +8,6 @@ A modern, professional portfolio template tailored for Business Intelligence and
 [![SQL](https://img.shields.io/badge/SQL-Data-blue)](https://en.wikipedia.org/wiki/SQL)
 [![Python](https://img.shields.io/badge/Python-Scripting-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-Next.js-blue?logo=react)](https://nextjs.org/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chandu%20Prasad-0077B5?logo=linkedin)](https://www.linkedin.com/in/YOUR-LINKEDIN)
 
 ---
 
@@ -85,13 +84,25 @@ portfolio/
 ├── README.md               # Project documentation
 
 ```
+
+---
+
+## 📁 Example Projects
+
+- 📊 **Sales Dashboard**  
+  Power BI dashboard visualizing sales KPIs across regions and time periods.
+
+- 📈 **Customer Churn Prediction**  
+  Python-based ML model predicting telecom churn with 87% accuracy.
+
+- 📂 **SQL Reporting Automation**  
+  Automated reporting pipeline using SQL + Jupyter to reduce manual ops by 90%.
+
 ---
 
 ## 🧠 Author
-
-Sushmitha Birudala – Data & BI Analyst  
-🔗 [LinkedIn](https://www.linkedin.com/in/sushbirudala362/)  
-
+**Sushmitha Birudala** – BI & Data Analyst   
+>>>>>>> 8fd7505e1e302d52fa5b620330b8e14e3f356749
 ---
 
 ## 📜 License
@@ -102,7 +113,7 @@ Licensed under the [MIT License](LICENSE)
 
 ## ✨ Contributions
 
-This project is adapted from the excellent [`Sushmitha-Portfolio`](https://github.com/bjornmelin/Sushmitha-Portfolio) and customized for BI professionals.
+This project is adapted from the excellent (https://github.com/bjornmelin) and customized for BI professionals.
 
 ---
 

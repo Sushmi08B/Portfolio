@@ -73,7 +73,7 @@ export function Footer() {
                 <LinkedInLogoIcon className="w-5 h-5" />
               </a>
               <a
-                href="https://medium.com/@sushmithareddybirudala"
+                href="https://medium.com/@bjornmelin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/60 hover:text-foreground"
