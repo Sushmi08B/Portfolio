@@ -14,7 +14,7 @@ export function FeaturedProjects() {
       <div className="container mx-auto px-4">
         <SectionHeader
           title="Featured Projects"
-          description="A selection of my recent work in cloud architecture and full-stack development"
+          description="A selection of my recent work in data analytics, business intelligence, data science, ML and insight-driven storytelling."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
