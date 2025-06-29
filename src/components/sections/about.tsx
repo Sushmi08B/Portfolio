@@ -46,34 +46,6 @@ export function About() {
               With 4 years of experience as a Data & BI Analyst, I’ve wrestled with messy spreadsheets, tamed SQL queries, and turned chaotic datasets into sleek dashboards that actually make sense. Armed with data wizardry skills, I decode patterns, design KPIs, and deliver insights that make business teams say, “Whoa, we didn’t know that.” Whether it’s churn, campaigns, or customer chaos — I ask the right questions, let the data speak, and tell the story behind the numbers. Because numbers are cool 
             </p>
           </Card>
-
-          {/* Skills Grid */}
-          <div className="lg:col-span-3 grid sm:grid-cols-2 gap-6">
-            {skillCategories.map((category) => (
-              <Card
-                key={category.name}
-                className="p-6 hover:shadow-md transition-shadow"
-              >
-                <div className="flex items-center gap-3 mb-6">
-                  <div className={`p-2 rounded-lg ${category.color}`}>
-                    <category.Icon className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-xl font-semibold">{category.name}</h3>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <Badge
-                      key={skill}
-                      variant="outline"
-                      className={`${category.color} hover:scale-105 transition-transform`}
-                    >
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
-              </Card>
-            ))}
-          </div>
         </div>
 
         {/* CTA Button */}
