@@ -223,7 +223,7 @@ export function AboutDetail() {
               <p>
                 I write about data storytelling, Power BI, and automation. Check out my insights on{" "}
                 <a
-                  href="https://medium.com/@sushmithabirudala"
+                  href="https://medium.com/@sushmithareddybirudala"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary underline hover:text-primary/80 transition"
