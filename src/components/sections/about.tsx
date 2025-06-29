@@ -32,17 +32,17 @@ export function About() {
         </div>
 
         {/* Main Content */}
-        <div className="grid lg:grid-cols-5 gap-8 items-start mb-16">
+        <div className="flex justify-center mb-16">
           {/* Professional Summary */}
-          <Card className="lg:col-span-2 p-6 hover:shadow-md transition-shadow">
-            <div className="flex items-center gap-3 mb-6">
-              <div className={`p-2 rounded-lg bg-primary/10`}>
-                <GraduationCap className="w-6 h-6 text-primary" />
+          <Card className="max-w-xl w-full p-6 hover:shadow-md transition-shadow text-center">
+            <div className="flex flex-col items-center gap-3 mb-6">
+              <div className="p-2 rounded-lg bg-primary/10">
+          <GraduationCap className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-                I make data behave.
+              I make data behave.
               With 4 years of experience as a Data & BI Analyst, I’ve wrestled with messy spreadsheets, tamed SQL queries, and turned chaotic datasets into sleek dashboards that actually make sense. Armed with data wizardry skills, I decode patterns, design KPIs, and deliver insights that make business teams say, “Whoa, we didn’t know that.” Whether it’s churn, campaigns, or customer chaos — I ask the right questions, let the data speak, and tell the story behind the numbers. Because numbers are cool 
             </p>
           </Card>
