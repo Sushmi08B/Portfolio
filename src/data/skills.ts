@@ -1,4 +1,12 @@
-import { BarChart3, Database, Settings, Users } from "lucide-react";
+import {
+  BarChart3,
+  Database,
+  Settings,
+  Cloud,
+  Cpu,
+  Users,
+  Wrench
+} from "lucide-react";
 import { ElementType } from "react";
 
 export interface SkillCategory {
@@ -28,8 +36,10 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "SQL",
       "PostgreSQL",
-      "Snowflake",
       "MySQL",
+      "Snowflake",
+      "SQL Server",
+      "MongoDB",
       "Google BigQuery",
       "DAX",
       "M Query"
@@ -41,15 +51,56 @@ export const skillCategories: SkillCategory[] = [
     color: "bg-green-500/10 text-green-600",
     skills: [
       "Python (Pandas, NumPy)",
+      "R",
       "ETL Pipelines",
-      "Jupyter Notebook",
+      "Apache Spark / PySpark",
+      "Kafka",
       "Airflow",
       "dbt",
+      "Jupyter Notebook",
       "Power Automate"
     ],
   },
   {
-    name: "Soft Skills & Collaboration",
+    name: "Cloud Platforms",
+    Icon: Cloud,
+    color: "bg-green-500/10 text-green-600",
+    skills: [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)",
+      "Microsoft Azure"
+    ],
+  },
+  {
+    name: "Data Science & Machine Learning",
+    Icon: Cpu,
+    color: "bg-green-500/10 text-green-600",
+    skills: [
+      "Scikit-learn",
+      "TensorFlow",
+      "Regression / Classification",
+      "Decision Trees",
+      "A/B Testing",
+      "Time Series Forecasting",
+      "NLP"
+    ],
+  },
+  {
+    name: "Tools & Collaboration",
+    Icon: Wrench,
+    color: "bg-green-500/10 text-green-600",
+    skills: [
+      "Git / GitHub",
+      "Jira / Confluence",
+      "Docker",
+      "Jenkins",
+      "Google Analytics",
+      "Microsoft Visio",
+      "APIs"
+    ],
+  },
+  {
+    name: "Soft Skills",
     Icon: Users,
     color: "bg-green-500/10 text-green-600",
     skills: [
