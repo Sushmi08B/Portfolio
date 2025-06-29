@@ -6,14 +6,29 @@ export interface Hobby {
 
 export const hobbies: Hobby[] = [
   {
+    name: "Writing",
+    emoji: "✍️",
+    description: "Expressing thoughts and ideas through words"
+  },
+  {
+    name: "Photography",
+    emoji: "📸",
+    description: "Capturing moments and exploring creativity through the lens"
+  },
+  {
+    name: "Reading",
+    emoji: "📚",
+    description: "Diving into different worlds through books"
+  },
+  {
+    name: "Music",
+    emoji: "🎶",
+    description: "Exploring different genres and discovering new artists"
+  },
+  {
     name: "Hiking",
     emoji: "🏔️",
     description: "Exploring Utah's beautiful trails and mountain ranges"
-  },
-  {
-    name: "Road Biking",
-    emoji: "🚴‍♂️",
-    description: "Enjoying scenic routes and maintaining an active lifestyle"
   },
   {
     name: "Camping",

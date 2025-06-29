@@ -17,7 +17,8 @@ export interface Education {
   activities: Activity[];
 }
 
-export const education: Education = {
+export const education: Education[] = [
+  {
   degree: "Master of Science - MS, Computer Science",
   school: "Northern Illinois University",
   location: "DeKalb, Illinois, United States",
@@ -35,4 +36,22 @@ export const education: Education = {
     { name: "AI & Machine Learning Reading Group - Participant" },
     { name: "Tableau & Power BI Workshops - Attendee" }
   ]
-};
+},
+  {
+  degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
+  school: "Sri Padmavathi Mahila Visvavidyalayam",
+  location: "Tirupati, India",
+  startDate: "August 2017",
+  endDate: "May 2021",          
+  gpa: "3.4",
+  honors: [
+    { name: "Top of the Class" },
+    { name: "Academic Excellence Award" }
+  ],
+  activities: [
+    { name: "IEEE - Member" },
+    { name: "Tech Fest Volunteer" },
+    { name: "Coding Competitions - Participant" }
+  ]
+}
+];

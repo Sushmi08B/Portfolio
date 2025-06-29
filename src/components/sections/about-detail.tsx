@@ -36,13 +36,15 @@ export function AboutDetail() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Sushmitha Birudala</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                 Business Intelligence Analyst | Power BI • SQL • Python
+                 Data Analyst | Business Data Analyst | Business Intelligence Specialist
               </p>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="outline" className="bg-primary/10"><BarChart3 className="w-3 h-3 mr-2" /> Power BI Expert</Badge>
+                <Badge variant="outline" className="bg-primary/10"><Users className="w-3 h-3 mr-2" /> Data & BI Analysis</Badge>
+                <Badge variant="outline" className="bg-primary/10"><BarChart3 className="w-3 h-3 mr-2" /> Data Visualization Expert</Badge>
                 <Badge variant="outline" className="bg-primary/10"><Database className="w-3 h-3 mr-2" /> SQL Specialist</Badge>
+                <Badge variant="outline" className="bg-primary/10"><Code className="w-3 h-3 mr-2" /> Data Storyteller</Badge>
+                <Badge variant="outline" className="bg-primary/10"><Code className="w-3 h-3 mr-2" /> Dashboard Developer</Badge>
                 <Badge variant="outline" className="bg-primary/10"><Settings className="w-3 h-3 mr-2" /> Reporting Automation</Badge>
-                <Badge variant="outline" className="bg-primary/10"><Code className="w-3 h-3 mr-2" /> Python Analyst</Badge>
               </div>
             </div>
           </div>
@@ -56,7 +58,7 @@ export function AboutDetail() {
               Professional Summary
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-              <p>I’m a  Data & Business Intelligence Analyst with over 4+ years of experience helping companies unlock actionable insights through dashboards, SQL data models, and Python-based automation.</p>
+              <p>I’m a  Data & Business Intelligence Analyst with over 4 years of experience helping companies unlock actionable insights through dashboards, SQL data models, and Python-based automation.</p>
               <p>Experience transforming raw data into actionable insights that support strategic decision-making.</p>
               <p>Strong foundation in data cleaning, exploratory data analysis (EDA), KPI development, and dashboard creation, optimizing reporting pipelines to designing executive dashboards across sales, operations, and finance departments.</p>
               <p>I hold a Master's in Computer Science and am passionate about data storytelling, stakeholder engagement, and driving real-world impact with clean, automated insights.</p>
@@ -157,31 +159,33 @@ export function AboutDetail() {
               Education
             </h2>
             <div className="space-y-6">
-              <div>
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-                  <div>
-                    <h3 className="font-semibold text-lg">{education.degree}</h3>
-                    <p className="text-muted-foreground">{education.school}</p>
+              {education.map((edu, idx) => (
+                <div key={idx}>
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                    <div>
+                      <h3 className="font-semibold text-lg">{edu.degree}</h3>
+                      <p className="text-muted-foreground">{edu.school}</p>
+                    </div>
+                    <div className="text-right mt-1 md:mt-0">
+                      <p className="text-sm text-muted-foreground">{edu.startDate} - {edu.endDate}</p>
+                      <p className="text-sm font-medium text-primary">GPA: {edu.gpa}</p>
+                    </div>
                   </div>
-                  <div className="text-right mt-1 md:mt-0">
-                    <p className="text-sm text-muted-foreground">{education.startDate} - {education.endDate}</p>
-                    <p className="text-sm font-medium text-primary">GPA: {education.gpa}</p>
-                  </div>
-                </div>
-                <div className="mt-3">
-                  {education.honors.map((honor, index) => (
-                    <Badge key={index} variant="outline" className={`bg-primary/5 mb-2 ${index > 0 ? "ml-2" : ""}`}>{honor.name}</Badge>
-                  ))}
-                </div>
-                <div className="mt-4">
-                  <p className="text-sm font-medium mb-2">Activities and Societies:</p>
-                  <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1 ml-2">
-                    {education.activities.map((activity, index) => (
-                      <li key={index}>{activity.name}</li>
+                  <div className="mt-3">
+                    {edu.honors.map((honor, index) => (
+                      <Badge key={index} variant="outline" className={`bg-primary/5 mb-2 ${index > 0 ? "ml-2" : ""}`}>{honor.name}</Badge>
                     ))}
-                  </ul>
+                  </div>
+                  <div className="mt-4">
+                    <p className="text-sm font-medium mb-2">Activities and Societies:</p>
+                    <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1 ml-2">
+                      {edu.activities.map((activity, index) => (
+                        <li key={index}>{activity.name}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </Card>
         </motion.div>
@@ -216,7 +220,17 @@ export function AboutDetail() {
               Blog & Writing
             </h2>
             <div className="space-y-4 text-muted-foreground">
-              <p>Sharing ideas, tools, and practical insights in BI and data storytelling. Check back soon for posts!</p>
+              <p>
+                I write about data storytelling, Power BI, and automation. Check out my insights on{" "}
+                <a
+                  href="https://medium.com/@sushmithabirudala"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline hover:text-primary/80 transition"
+                >
+                  Medium
+                </a>.
+              </p>
             </div>
           </Card>
         </motion.div>

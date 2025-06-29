@@ -19,6 +19,35 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    title: "Business Data Analyst",
+    company: "Caterpillar",
+    location: "Chicago, IL",
+    startDate: "June 2024",
+    endDate: "May 2025",
+    achievements: [
+      { text: "Partnered with product and marketing stakeholders to gather reporting requirements and define KPIs aligned with business objectives." },
+      { text: "Designed and deployed automated dashboards (Yearly, Quarterly, Monthly, Weekly) using Power BI." },
+      { text: "Authored complex SQL transformations and built DAX-based measures and computed tables for dynamic, filter-responsive visuals." },
+      { text: "Led customer cohort and campaign performance analyses, improving retention tracking accuracy by 25% through segmentation and behavioral insights." },
+      { text: "Collaborated with data engineers to validate and ingest raw event data into BI pipelines, improving reporting SLA compliance by 15%." },
+      { text: "Implemented data refresh schedules, row-level security, and access controls in Power BI Service to ensure secure, timely data access across business units." },
+      { text: "Delivered ad hoc analytical reports using Power BI and SQL Server, supporting senior leadership and cross-functional initiatives." },
+      { text: "Conducted stakeholder walkthroughs and dashboard training sessions to promote self-service BI and data literacy across non-technical teams." },
+      { text: "Created documentation of KPI definitions, data sources, and report logic to support BI governance and team onboarding." }
+    ],
+    skills: [
+      { name: "Power BI" },
+      { name: "SQL" },
+      { name: "DAX" },
+      { name: "KPI Development" },
+      { name: "Data Modeling" },
+      { name: "Business Intelligence" },
+      { name: "Stakeholder Communication" },
+      { name: "Dashboarding" },
+      { name: "BI Governance" }
+    ]
+  },
+  {
     title: "Orientation Intern",
     company: "Northern Illinois University",
     location: "Dekalb, IL",
@@ -49,10 +78,11 @@ export const experiences: Experience[] = [
     startDate: "Jan 2024",
     endDate: "May 2024",
     achievements: [
-      { text: "Supported academic instruction by grading, preparing materials, and occasionally leading discussions or labs." },
-      { text: "Collaborated with faculty on data collection and analysis for ongoing research projects." },
-      { text: "Compiled reports and organized departmental data for presentations and decision-making support." },
-      { text: "Performed administrative tasks including recordkeeping, scheduling, and event coordination." }
+      { text: "Handled teaching, research, and administration tasks, utilizing Excel for data management and contributing to efficient departmental operations." },
+      { text: "Supported faculty by grading assignments, preparing instructional materials, and leading class discussions, which improved student engagement and enhanced my teaching skills." },
+      { text: "Collaborated with professors on data collection and analysis, contributing to meaningful academic findings and enhancing research methodologies." },
+      { text: "Coordinated logistics and maintained departmental records using productivity tools (Google Workspace, Microsoft Office)." },
+
     ],
     skills: [
       { name: "Data Analysis" },
@@ -70,11 +100,14 @@ export const experiences: Experience[] = [
     startDate: "Jul 2021",
     endDate: "Jul 2023",
     achievements: [
+      { text: "Designed and maintained retail performance dashboards in Tableau, supporting over 50 business users across marketing, sales, and supply chain teams." },
+      { text: "Extracted, cleaned, and analyzed over 10M+ monthly transactions using SQL and Python to uncover fraud indicators and inventory anomalies." },
+      { text: "Partnered with data engineering to define robust data models and staging layers, improving report accuracy and reducing refresh failures by 20%." },
+      { text: "Conducted stockout and overstock trend analysis, enabling inventory optimization and reducing waste by 12%." },
+      { text: "Performed customer segmentation and behavioral analysis, identifying high-value cohorts and informing targeted retention strategies."},
+      { text: "Collaborated with business stakeholders to track key metrics such as revenue per region, product conversion rates, and promotion impact." },
+      { text: "Participated in regular data quality audits, resolving inconsistencies and improving trust in BI reporting." },
       { text: "Developed and maintained dashboards in Power BI to track compliance KPIs across teams, enabling real-time visibility." },
-      { text: "Built automated SQL pipelines to clean and transform raw data from GCP into structured reporting tables." },
-      { text: "Performed data validation, cleansing, and analysis to ensure accuracy in reporting for compliance audits." },
-      { text: "Collaborated with cross-functional teams to identify key data metrics and built visual reports consumed by 20+ stakeholders." },
-      { text: "Used Airflow to schedule and monitor ETL workflows, reducing manual intervention and improving reliability." },
       { text: "Authored Confluence documentation and SOPs to support internal knowledge sharing and onboarding." }
     ],
     skills: [
@@ -87,6 +120,28 @@ export const experiences: Experience[] = [
       { name: "GCP" },
       { name: "Business Intelligence" },
       { name: "ETL" }
+    ]
+  },
+  {
+    title: "Data Analyst",
+    company: "HDFC Bank",
+    location: "Chennai, India",
+    startDate: "Nov 2020",
+    endDate: "May 2021",
+    achievements: [
+      { text: "Conducted credit card portfolio analysis using SQL and Excel to identify high-value customer segments, uncovering upsell opportunities that increased campaign ROI by 15%." },
+      { text: "Automated MIS (Management Information System) reporting workflows using Python, reducing manual effort and report delivery time by 50%." },
+      { text: "Analyzed monthly customer trends and financial product adoption patterns, preparing insights for senior leadership to guide product strategy." },
+      { text: "Created dashboards and summary reports to track KPIs such as spend categories, payment behaviors, and delinquency rates." }
+    ],
+    skills: [
+      { name: "SQL" },
+      { name: "Excel" },
+      { name: "Python" },
+      { name: "Banking Analytics" },
+      { name: "Customer Segmentation" },
+      { name: "MIS Reporting" },
+      { name: "Dashboarding" }
     ]
   }
 ];

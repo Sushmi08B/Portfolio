@@ -60,7 +60,7 @@ export const projectsData: Project[] = [
       "Text Preprocessing",
       "Exploratory Data Analysis"
     ],
-    category: "Data Science",
+    category: "Data Science & ML",
     links: {
       github: "https://github.com/Sushmi08B/Fake-Tweet-Detection"
     },
@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
       "Data Lake",
       "CI/CD"
     ],
-    category: "Cloud & Data Engineering",
+    category: "Data Engineering",
     links: {
       github: "https://github.com/Sushmi08B/Netflix_Azure_DE_Project"
     },
@@ -124,7 +124,7 @@ export const projectsData: Project[] = [
       "Public Safety Data",
       "Storytelling"
     ],
-    category: "Visualization",
+    category: "Data Analysis",
     links: {
       live: "https://public.tableau.com/app/profile/sushmitha.birudala/viz/MinnesotaTrafic/Dashboard1"
     },
@@ -166,7 +166,7 @@ export const projectsData: Project[] = [
       "Heat Maps",
       "Histograms"
     ],
-    category: "Visualization",
+    category: "Data Analysis",
     links: {
       live: "https://public.tableau.com/app/profile/sushmitha.birudala/viz/KingCountyHousingAnalysis_17495605806570/KingCountyHouseSales"
     },
