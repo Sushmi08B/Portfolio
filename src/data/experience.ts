@@ -97,7 +97,7 @@ export const experiences: Experience[] = [
     title: "Data Analyst",
     company: "Walmart",
     location: "Chennai, India",
-    startDate: "Jul 2021",
+    startDate: "Mar 2021",
     endDate: "Jul 2023",
     achievements: [
       { text: "Designed and maintained retail performance dashboards in Tableau, supporting over 50 business users across marketing, sales, and supply chain teams." },
@@ -120,28 +120,6 @@ export const experiences: Experience[] = [
       { name: "GCP" },
       { name: "Business Intelligence" },
       { name: "ETL" }
-    ]
-  },
-  {
-    title: "Data Analyst",
-    company: "HDFC Bank",
-    location: "Chennai, India",
-    startDate: "Nov 2020",
-    endDate: "May 2021",
-    achievements: [
-      { text: "Conducted credit card portfolio analysis using SQL and Excel to identify high-value customer segments, uncovering upsell opportunities that increased campaign ROI by 15%." },
-      { text: "Automated MIS (Management Information System) reporting workflows using Python, reducing manual effort and report delivery time by 50%." },
-      { text: "Analyzed monthly customer trends and financial product adoption patterns, preparing insights for senior leadership to guide product strategy." },
-      { text: "Created dashboards and summary reports to track KPIs such as spend categories, payment behaviors, and delinquency rates." }
-    ],
-    skills: [
-      { name: "SQL" },
-      { name: "Excel" },
-      { name: "Python" },
-      { name: "Banking Analytics" },
-      { name: "Customer Segmentation" },
-      { name: "MIS Reporting" },
-      { name: "Dashboarding" }
     ]
   }
 ];

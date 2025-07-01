@@ -41,7 +41,7 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
-                href="resume/SushmithaBirudala.pdf"
+                href="resume/SushmithaBirudala.docx"
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
               >
                 Download Resume

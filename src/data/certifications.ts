@@ -31,17 +31,17 @@ export const certifications: Certification[] = [
   },
   {
     "name": "Lean Six Sigma Yellow Belt",
-    "issuedBy": "GoLeanSixSigma",
+    "issuedBy": "Council For Six Sigma Certification",
     "issuedDate": "2025",
     "image": "/certifications/yellow.png",
     "link": "https://goleansixsigma.com/free-lean-six-sigma-yellow-belt-training/"
   },
   {
     "name": "Lean Six Sigma White Belt",
-    "issuedBy": "GoLeanSixSigma",
+    "issuedBy": "Council For Six Sigma Certification",
     "issuedDate": "2025",
     "image": "/certifications/white.png",
-    "link": "https://goleansixsigma.com/free-lean-six-sigma-yellow-belt-training/"
+    "link": "/certifications/Six_Sigma_White_Belt_Certification.pdf"
   },
   {
     "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
