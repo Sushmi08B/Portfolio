@@ -105,7 +105,7 @@ export function ContactForm() {
           <AlertTitle>Failed to Send Message</AlertTitle>
           <AlertDescription>
             Please try again. If the problem persists, you can email me directly
-            at{" "}
+            at sushmithabirudala08@gmail.com
             <a
               href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
               className="underline hover:text-red-400"
