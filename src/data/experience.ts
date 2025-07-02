@@ -20,21 +20,22 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     title: "Business Data Analyst",
-    company: "Caterpillar",
+    company: "CNA Insurance",
     location: "Chicago, IL",
     startDate: "June 2024",
     endDate: "May 2025",
     achievements: [
-      { text: "Partnered with product and marketing stakeholders to gather reporting requirements and define KPIs aligned with business objectives." },
-      { text: "Designed and deployed automated dashboards (Yearly, Quarterly, Monthly, Weekly) using Power BI." },
-      { text: "Authored complex SQL transformations and built DAX-based measures and computed tables for dynamic, filter-responsive visuals." },
-      { text: "Led customer cohort and campaign performance analyses, improving retention tracking accuracy by 25% through segmentation and behavioral insights." },
-      { text: "Collaborated with data engineers to validate and ingest raw event data into BI pipelines, improving reporting SLA compliance by 15%." },
-      { text: "Implemented data refresh schedules, row-level security, and access controls in Power BI Service to ensure secure, timely data access across business units." },
-      { text: "Delivered ad hoc analytical reports using Power BI and SQL Server, supporting senior leadership and cross-functional initiatives." },
-      { text: "Conducted stakeholder walkthroughs and dashboard training sessions to promote self-service BI and data literacy across non-technical teams." },
-      { text: "Created documentation of KPI definitions, data sources, and report logic to support BI governance and team onboarding." }
-    ],
+      { text: "Partnered with product, underwriting, and marketing teams to gather reporting requirements and define KPIs aligned with policy growth, claims processing, and customer retention objectives." },
+      { text: "Designed and deployed automated Power BI dashboards (Yearly, Quarterly, Monthly, Weekly) to monitor claims volume, premium trends, and risk exposure." },
+      { text: "Authored advanced SQL transformations and built DAX-based measures to drive dynamic, filter-responsive insurance insights across product lines and geographies." },
+      { text: "Extracted and validated agent, policy and claims data from Salesforce Financial Services Cloud(FSC) to power retention tracking, customer segmentation and operational reporting." },
+      { text: "Led customer segmentation and campaign performance analysis, improving policyholder retention tracking accuracy by 25% through behavioral cohorting and claims frequency patterns." },
+      { text: "Collaborated with data engineering teams to validate and ingest policy, claims, and agent activity data into BI pipelines, improving reporting SLA compliance." },
+      { text: "Implemented data refresh schedules, row-level security, and access control in Power BI Service to ensure secure access for underwriters, agents, and business leaders." },
+      { text: "Delivered ad hoc reports to support regulatory compliance, pricing strategy, and portfolio performance reviews using SQL Server and Power BI." },
+      { text: "Conducted training sessions and walkthroughs for non-technical insurance staff to promote self-service analytics and improve data literacy across departments." },
+      { text: "Documented KPI definitions (e.g., Loss Ratio, Combined Ratio, Retention Rate), source mappings, and report logic to strengthen BI governance and onboarding processes." }
+],
     skills: [
       { name: "Power BI" },
       { name: "SQL" },
@@ -98,7 +99,7 @@ export const experiences: Experience[] = [
     company: "Walmart",
     location: "Chennai, India",
     startDate: "Mar 2021",
-    endDate: "Jul 2023",
+    endDate: "Aug 2023",
     achievements: [
       { text: "Designed and maintained retail performance dashboards in Tableau, supporting over 50 business users across marketing, sales, and supply chain teams." },
       { text: "Extracted, cleaned, and analyzed over 10M+ monthly transactions using SQL and Python to uncover fraud indicators and inventory anomalies." },
