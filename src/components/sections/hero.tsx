@@ -18,7 +18,7 @@ export function Hero() {
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/10">
               <Image
                 src="/headshot/sushmitha.jpg" // Update this if your image is different
-                alt="Sushmitha Birudala"
+                alt="Sushmitha"
                 fill
                 sizes="(max-width: 768px) 192px, 256px"
                 priority
@@ -34,7 +34,7 @@ export function Hero() {
             className="flex flex-col items-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-              Hi, I'm Sushmitha Birudala
+              Hi, I'm Sushmitha
             </h1>
             <p className="mt-6 text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl">
                Data and Business Intelligence Analyst | Helping companies turn raw data into strategic insights and decisions.

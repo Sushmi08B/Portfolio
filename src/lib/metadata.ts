@@ -14,7 +14,7 @@ export function generateMetadata({
   image,
 }: GenerateMetadataProps): Metadata {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://bsushmitha.vercel.app/'; // Update if using a custom domain
-  const fullTitle = title ? `${title} | Sushmitha Birudala` : 'Sushmitha Birudala - Senior BI & Data Analyst';
+  const fullTitle = title ? `${title} | Sushmitha` : 'Sushmitha - Senior BI & Data Analyst';
 
   return {
     title: fullTitle,
@@ -29,9 +29,9 @@ export function generateMetadata({
       title: fullTitle,
       description:
         description ||
-        'Explore the portfolio of Sushmitha Birudala — Senior BI Analyst skilled in Power BI, SQL, Python, and advanced data visualization techniques.',
+        'Explore the portfolio of Sushmitha — Senior BI Analyst skilled in Power BI, SQL, Python, and advanced data visualization techniques.',
       url: `${baseUrl}${path}`,
-      siteName: 'Sushmitha Birudala',
+      siteName: 'Sushmitha',
       type: 'website',
       ...(image && { images: [{ url: image }] }),
     },

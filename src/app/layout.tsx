@@ -22,8 +22,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Sushmitha Birudala",
-    default: " Sushmitha Birudala | BI & Data Analyst",
+    template: "%s | Sushmitha",
+    default: " Sushmitha | BI & Data Analyst",
   },
   description:
     "Senior Business Intelligence Analyst | Data Storytelling | Power BI | SQL | Tableau | Python",
@@ -33,18 +33,18 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
+    title: 'Sushmitha - Business Intelligence and Data Analyst',
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
     images: [{
       url: '/headshot/preview.png',
       width: 400,
       height: 400,
-      alt: 'Sushmitha Birudala - Portfolio Hero Section'
+      alt: 'Sushmitha - Portfolio Hero Section'
     }]
   },
   twitter: {
     card: 'summary',
-    title: 'Sushmitha Birudala - Business Intelligence and Data Analyst',
+    title: 'Sushmitha - Business Intelligence and Data Analyst',
     description: 'Business Intelligence Analyst | Power BI, SQL, Python | Helping companies turn raw data into strategic insights and decisions',
     images: ['/headshot/preview.png']
   },
@@ -76,8 +76,8 @@ export const metadata: Metadata = {
     "Cloud Computing",
     "Cloud Architecture"
   ],
-  authors: [{ name: "Sushmitha Birudala" }],
-  creator: "Sushmitha Birudala",
+  authors: [{ name: "Sushmitha" }],
+  creator: "Sushmitha",
 };
 
 export default function RootLayout({
