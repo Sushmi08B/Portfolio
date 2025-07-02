@@ -31,10 +31,10 @@ export function AboutDetail() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="mb-20">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/10">
-              <Image src="/headshot/sushmitha.jpg" alt="Sushmitha Birudala" fill sizes="192px" priority className="object-cover" />
+              <Image src="/headshot/sushmitha.jpg" alt="Sushmitha" fill sizes="192px" priority className="object-cover" />
             </div>
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">Sushmitha Birudala</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Sushmitha</h1>
               <p className="text-xl text-muted-foreground mb-4">
                  Data Analyst | Business Data Analyst | Business Intelligence Specialist
               </p>

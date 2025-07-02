@@ -2,7 +2,7 @@ import { type Metadata } from "next";
 import { ContactForm } from "@/components/contact/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact | Sushmitha Birudala",
+  title: "Contact | Sushmitha",
   description: "Get in touch with me through this contact form.",
 };
 

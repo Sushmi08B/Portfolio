@@ -102,7 +102,7 @@ portfolio/
 ---
 
 ## 🧠 Author
-**Sushmitha Birudala** – BI & Data Analyst   
+**Sushmitha** – BI & Data Analyst   
 
 ---
 
