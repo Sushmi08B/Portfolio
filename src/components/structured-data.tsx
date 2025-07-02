@@ -3,7 +3,7 @@ export function generatePersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Sushmitha Birudala",
-    url: "https://sushmithabirudala.vercel.app/",
+    url: "https://bsushmitha.vercel.app/",
     jobTitle: "Business Intelligence and Data Analyst",
     description:
       "Proficient in Python, SQL, and Apache Spark, with expertise in data structures, algorithms, cloud technologies, \
@@ -43,7 +43,7 @@ export function generateWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Sushmitha Birudala - Portfolio",
-    url: "https://sushmithabirudala.vercel.app/",
+    url: "https://bsushmitha.vercel.app/",
     description:
       "Personal portfolio of Sushmitha Birudala, Business Intelligence and Data Analyst.",
     author: {

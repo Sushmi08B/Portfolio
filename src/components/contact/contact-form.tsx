@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { CheckCircle2, AlertCircle, Loader2, Dice1 } from "lucide-react";
 
 interface APIErrorResponse {
   error: string;
@@ -105,7 +105,7 @@ export function ContactForm() {
           <AlertTitle>Failed to Send Message</AlertTitle>
           <AlertDescription>
             Please try again. If the problem persists, you can email me directly
-            at sushmithabirudala08@gmail.com
+            at sushmithab3626@gmail.com
             <a
               href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
               className="underline hover:text-red-400"
@@ -135,7 +135,7 @@ export function ContactForm() {
             </p>
           )}
         </div>
-
+        
         <div className="space-y-2">
           <Label htmlFor="email">Email</Label>
           <Input

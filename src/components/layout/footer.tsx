@@ -91,7 +91,7 @@ export function Footer() {
                 <BookOpenCheck size={20} />
               </a>
               <a
-                href="mailto:sushmithabirudala08@gmail.com"
+                href="mailto:sushmithab3626@gmail.com"
                 className="text-foreground/60 hover:text-foreground"
                 aria-label="Email"
               >

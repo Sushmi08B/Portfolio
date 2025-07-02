@@ -13,7 +13,7 @@ export function generateMetadata({
   path = '',
   image,
 }: GenerateMetadataProps): Metadata {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sushmithabirudala.vercel.app/'; // Update if using a custom domain
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://bsushmitha.vercel.app/'; // Update if using a custom domain
   const fullTitle = title ? `${title} | Sushmitha Birudala` : 'Sushmitha Birudala - Senior BI & Data Analyst';
 
   return {
