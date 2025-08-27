@@ -49,7 +49,7 @@ export const projectsData: Project[] = [
     id: "3",
     title: "Fake Tweet Detection using NLP",
     description:
-      "Implemented a machine learning model to detect fake tweets using text classification, TF-IDF, and logistic regression. Focused on misinformation detection in social media.",
+      "Implemented a machine learning model to detect fake tweets using text classification, TF-IDF, CNN, hybrid CNN, Random Forest and logistic regression. Focused on misinformation detection in social media.",
     image: "/projects/FakeTweet.png",
     technologies: [
       "Python",
@@ -66,8 +66,31 @@ export const projectsData: Project[] = [
     },
     featured: false,
   },
+
   {
     id: "4",
+    title: "Customer Order Prediction",
+    description:
+      "Designed and implemented an end-to-end Data Engineering & Machine Learning pipeline on Azure using Synapse, ADLS Gen2, and Azure ML, with insights visualized in Tableau.",
+    image: "/projects/customerPrediction.png",
+    technologies: [
+      "Python",
+      "PySpark",
+      "SQL",
+      "Azure Synapse",
+      "Azure Data Lake Storage",
+      "Azure Machine Learning",
+      "Tableau"
+    ],
+    category: "Data Science & ML",
+    links: {
+      github: "https://github.com/Sushmi08B/Customer-Order-Prediction-Analysis"
+    },
+    featured: false,
+  },
+
+  {
+    id: "5",
     title: "Netflix Azure Data Engineering Project",
     description:
       "Developed a scalable data pipeline using Azure Data Factory, Blob Storage, and Databricks to process Netflix viewing activity logs. Loaded curated data into Azure SQL for BI reporting.",
@@ -89,7 +112,7 @@ export const projectsData: Project[] = [
     featured: true,
   },
   {
-    id: "5",
+    id: "6",
     title: "Weather Data ETL Pipeline",
     description:
       "Designed an ETL workflow using Python and PostgreSQL to process daily weather data, including data cleaning, loading, and time-based aggregation.",
@@ -111,7 +134,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: "6",
+    id: "7",
     title: "Minnesota Traffic Analysis",
     description:
       "Visualized Minnesota traffic data to identify congestion hotspots, seasonal variations, and accident-prone zones using interactive Tableau dashboards.",
@@ -131,7 +154,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: "7",
+    id: "8",
     title: "HR Data Dashboard",
     description:
       "Analyzed employee data to visualize hiring trends, attrition patterns, and department-wise distributions using Tableau dashboards.",
@@ -152,7 +175,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: "8",
+    id: "9",
     title: "King County Housing Analysis",
     description:
       "Created a Tableau dashboard to analyze housing prices and trends in King County. Explored impact of variables like location, sqft, and condition on house prices.",
