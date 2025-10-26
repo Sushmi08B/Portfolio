@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
     company: "CNA Insurance",
     location: "Chicago, IL",
     startDate: "June 2024",
-    endDate: "May 2025",
+    endDate: "Present",
     achievements: [
       { text: "Partnered with product, underwriting, and marketing teams to gather reporting requirements and define KPIs aligned with policy growth, claims processing, and customer retention objectives." },
       { text: "Designed and deployed automated Power BI dashboards (Yearly, Quarterly, Monthly, Weekly) to monitor claims volume, premium trends, and risk exposure." },
